@@ -70,6 +70,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\aboutusimage.JPG" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
