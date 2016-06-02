@@ -11,7 +11,7 @@ namespace Portfolio
 {
 
 
-    public partial class Products
+    public partial class Projects
     {
     }
 }

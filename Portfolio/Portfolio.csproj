@@ -72,8 +72,10 @@
   <ItemGroup>
     <Content Include="img\aboutusimage.JPG" />
     <Content Include="packages.config" />
+    <Content Include="Projects.aspx" />
     <Content Include="Site.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -104,7 +106,6 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="User_Controls\Jumbotron.ascx" />
     <Content Include="User_Controls\Navbar.ascx" />
-    <Content Include="Products.aspx" />
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -141,6 +142,20 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Projects.aspx.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Projects.aspx.designer.cs">
+      <DependentUpon>Projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
     <Compile Include="User_Controls\Jumbotron.ascx.cs">
       <DependentUpon>Jumbotron.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,13 +169,6 @@
     </Compile>
     <Compile Include="User_Controls\Navbar.ascx.designer.cs">
       <DependentUpon>Navbar.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Products.aspx.cs">
-      <DependentUpon>Products.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Products.aspx.designer.cs">
-      <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services.aspx.cs">
