@@ -52,6 +52,9 @@
                     <asp:Button ForeColor="black" Font-Bold="true" CssClass="btn btn-danger bt-lg" Text="Cancel" runat="server" ID="CancelButton" />
                 </div>
             </div>
+      
         </div>
+        
     </div>
+
 </asp:Content>

@@ -15,9 +15,13 @@
                         <div class="col-sm-7 col-sm-push-1 col-xs-12 text-center">
                             <img src="img/aboutusimage.JPG" class="img-responsive">
                         </div>
+                       
+                        
                     </div>
+                     <div><p class="text-center"><a class="btn btn-warning" href="#"><i class="fa fa-download"></i> Download Resume</a></p></div>
                 </div>
             </div>
         </div>
     </div>
-</asp:Content>
+          
+    </asp:Content>
